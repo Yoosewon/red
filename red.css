@@ -1,0 +1,309 @@
+:root{
+--main-color: #C21010;
+--color-color:#E64848;
+--color:#0c1065;
+--color:#714905;
+--color: #73aace;
+
+/* #eeeeee */
+/* 숟가락 icon by Icons8 */
+
+
+}
+
+
+
+
+body{
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.logo{
+    width: 28%;
+    
+}
+
+
+#navbar{
+  position:fixed;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  z-index: 1;
+  
+  /* 'index'는 position 속성이 absolute, relative, fixed 정상작동*/
+  /* transition: all var(--animation-duration) ease-in-out;*/
+  
+}
+.navbar_menu{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+
+.member{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px 0 0 ;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login{
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 30px 30px 0 0;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+.outer{
+  /* border: 6px solid royalblue; */
+  width: 1900px;
+  height: 940px;
+  overflow-x: hidden;
+}
+
+.inner_list{
+  display: flex;
+  transition: 0.3s ease-out;
+   /* height: 100%; */
+}
+
+.text{
+  position: absolute;
+  color:#ffffff;
+  font-size: 4.5rem;
+  top: 25%;
+  left: 5%;
+  z-index: 1;
+  text-shadow: -5px 3px 3px #181D31;
+  
+  
+}
+
+.today,
+.food{
+  margin:0;
+  
+
+}
+
+.slideimg{
+  width: 1900px;
+  height: 930px; 
+  object-fit: cover;
+  opacity: 90%;
+}
+
+
+.button_list{
+  position: absolute;
+  display: grid;
+  margin-top: -520px;
+  right:60px;
+  
+}
+
+.button_left:hover{
+  background-color: #F7F7F7;
+  
+}
+
+.button_right:hover{
+  background-color: #F7F7F7;
+  
+  
+}
+
+.button_left,
+.button_right,
+.button_middle{
+  
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 100%;
+  background-color:#7E858B;
+  margin:5px;
+}
+
+.menu_alarm{
+  position: absolute;
+  
+  left: 50px;
+  color:#F7F7F7;
+  
+}
+
+.scroll{
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: -50px;
+}
+
+.arrow{
+  position: inherit;
+  width: 110%;
+  left: 80px;
+  margin-top: -130px;
+  
+}
+
+#menu_btn{
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: #ffffff;
+  list-style: none;
+  font-weight: bold;
+
+  /* ext-shadow: 1px 1px 1px #ffffff; */
+}
+
+
+#menu_btn.menu_btn--dark{
+  position: fixed;
+  background-color:#C21010;
+  top: 0;
+  /* width: 100% */
+  left: 0;
+  right: 0;
+  /* background-color:#E64848; */
+
+
+}
+
+.btn{
+  margin: 10px 45px;
+  padding: 10px 15px;
+  border-radius:10px;
+}
+/* 
+.btn_selected{
+  margin: 30px;
+} */
+
+
+
+.btn:hover{
+  background-color:#FCECDD;
+  background-size: 20px;
+  cursor: pointer;
+  color:#000000;
+  transition: 0.4s ease-in-out;
+}
+
+
+
+.menu{
+display: flex;
+margin: 80px 160px;
+flex-wrap: wrap;
+justify-content: center; 
+
+
+}
+
+.menu_list{
+  /*flex: 31%;*/
+  text-align: center;
+  margin:10px 5px 5px 10px;
+  /* padding: 0 0 38px; */
+  width: 26%;
+  /* border: 1.5px solid #DF7861; */
+  background-color:#F7F7F7;
+  /* border-radius: 15px; */
+  cursor: pointer;
+  /* #F9F9F9 */
+}
+
+.menu_list.invisible {
+  display:none;
+}
+
+
+.menu_img{
+  padding: 20px 0 20px;
+}
+
+
+.name{
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #F2EFEA;
+  /* #F0ECE3; */
+  /* F2EFEA */
+}
+
+.price{
+  font-weight:bold;
+  color:var(--main-color);
+  background-color: #F2EFEA;
+  margin: 0;
+
+}
+
+.last{
+  display: flex;
+  justify-content: space-around;
+  column-count: 2;
+  color: #ffffff;
+  background-color:var(--main-color);
+  padding: 0 234px;
+}
+
+
+.main_contact{
+  font-family: 'Righteous', cursive;
+  margin: 50px 0 0 0;
+}
+.main_contact_2{
+  margin: 5px 0 0 0;
+}
+
+.main_contact_3{
+  margin:5px 0 50px 0px;
+}
+
+
+.call_1{
+  margin: 50px 0 0 0;
+}
+.call_2{
+  margin: 5px 0 0 0;
+}
+.call_time{
+  margin: 5px 0 50px 0;
+}
+
+.adress h1{
+  break-before: column; 
+}
+
+.call h2{
+  break-before: column; 
+}
+
+/* .inner {
+  border: 6px solid olive;
+  padding: 0 16px; 
+} */

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>red food</title>
+    <link rel="icon" type="image/png" href="image/logo.png">
+    <link rel="stylesheet" href="red.css">
+    <script src="red.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans:wght@400;600;700&family=Rubik:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Serif+KR&family=Open+Sans:wght@400;600;700&family=Righteous&family=Rubik:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6d8a34a99a.js" crossorigin="anonymous"></script>
+
+<body>
+    <!--Navar-->
+    <section>
+        <nav id="navbar">
+            <div id="navbar_logo">
+                <img src="image/logo.png" alt="logo" class="logo">
+            </div>
+            
+            <div class="navbar_menu">   
+                <ul class="member">
+                    <li><i class="fa-solid fa-user-tag fa-lg"></i></li>
+                    <a class="member_2">회원가입</a>
+                </ul> 
+                <ul class="login">
+                    <li class="navbar_menu_item"><i class="fa-solid fa-user fa-lg"></i></li>
+                    <a class="login_2">로그인</a>
+                </ul> 
+            </div>
+        </nav>
+
+
+        <!--Main srceen-->
+    <section>
+        <div id="Home">
+            <div class="outer">
+                <div class="inner_list">
+                    <div class="text">
+                        <h2 class="today"> 오늘은</h2>
+                        <h2 class="food"> 떡볶이다!</h2>
+                    </div>
+                    <div class="inner">
+                        <img src="image/떡볶이_메인.jpg" alt="" class="slideimg">
+                    <div class="menu_alarm">
+                        <p class="scroll"> 메뉴 스크롤</p>
+                        <img src="image/화살표.png" alt="화살표" class="arrow"> 
+                    </div>
+                    </div>
+                    <div class="inner">
+                        <img src="image/비빔밥_메인.jpg" alt="떡볶이사진" class="slideimg">
+                    </div>
+                    <div class="inner">
+                        <img src="image/슬라이드2.jpg" alt="여러말들" class="slideimg">
+                    </div>
+                </div>
+            <!--button list  -->
+            <div class="button_list">
+                <button class="button_left"></button>
+                <button class="button_middle"></button>
+                <button class="button_right"></button>
+            </div>
+        </div>
+        </div>
+    </section>
+</section>
+
+    <section>
+        <div id="menu_btn">
+            <li class="btn" data-filter="전체">전체</li>
+            <li class="btn" data-filter="면">면</li>
+            <li class="btn" data-filter="밥">밥</li>
+            <li class="btn" data-filter="해산물/고기류">해산물/고기류</li>
+            <li class="btn" data-filter="분식">분식</li>
+            <li class="btn" data-filter="사이드">사이드</li>
+        </div>
+    </section>
+
+    <section>
+        <div class="menu" data-type="밥">
+            <div class="menu_list">
+                <img src="image/김치볶음밥.png"
+                 alt="image" class="menu_img">
+                <span class="name">김치볶음밥</span>
+                <p class="price">9,000원</p>
+            </div>
+
+            <div class="menu_list" data-type="해산물/고기류">
+                <img src="image/닭볶음탕.png"
+                 alt="image" class="menu_img">
+                <span class="name">닭도리탕</span>
+                <p class="price">14,000원</p>
+            </div>
+
+            <div class="menu_list" data-type="해산물/고기류">
+                <img src="image/닭발.png"
+                alt="image" class="menu_img">
+                <span class="name">닭발</span>
+                <p class="price">14,000원</p>
+            </div>
+
+            <div class="menu_list" data-type="분식">
+                <img src="image/떡볶이.png" 
+                alt="image" class="menu_img">
+                <span class="name">떡볶이(1인분 기준)</span>
+                <p class="price">8,000원</p>
+            </div>
+
+            <div class="menu_list" data-type="면">
+                <img src="image/비빔냉면.png"
+                 alt="image" class="menu_img">
+                <span class="name">비빔냉면</span>
+                <p class="price">9,000원</p>
+            </div>
+
+            <div class="menu_list" data-type="밥">
+                <img src="image/비빔밥.png"
+                 alt="image" class="menu_img">
+                <span class="name">비빔밥</span>
+                <p class="price">10,000원</p>
+            </div>
+
+            <div class="menu_list" data-type="해산물/고기류">
+                <img src="image/아구찜.png"
+                 alt="image" class="menu_img">
+                <span class="name">아구찜(小)</span>
+                <p class="price">23,000원</p>
+            </div>
+
+            <div class="menu_list" data-type="해산물/고기류">
+                <img src="image/양념치킨.png"
+                 alt="image" class="menu_img">
+                <span class="name">양념치킨</span>
+                <p class="price">15,000원</p>
+            </div>
+
+            <div class="menu_list" data-type="해산물/고기류">
+                <img src="image/쭈꾸미-볶음.png"
+                 alt="image" class="menu_img">
+                <span class="name">쭈꾸미볶음(小)</span>
+                <p class="price">18,000원</p>
+            </div>
+            <div class="menu_list" data-type="면">
+                <img src="image/짬뽕.png"
+                 alt="image" class="menu_img">
+                <span class="name">짬뽕</span>
+                <p class="price">9,000원</p>
+            </div>
+            <div class="menu_list" data-type="사이드">
+                <img src="image/깻잎.png" 
+                alt="image" class="menu_img">
+                <span class="name">깻잎</span>
+                <p class="price">3,000원</p>
+            </div>
+            <div class="menu_list" data-type="사이드">
+                <img src="image/쌈무.png" 
+                alt="image" class="menu_img">
+                <span class="name">쌈무</span>
+                <p class="price">2,500원</p>
+            </div>
+        </div>  
+    </section>
+    
+    <!-- Contact -->
+    <section class="last">
+        <div class="adress">
+            <h1 class="main_contact">red food</h1>
+            <p class="main_contact_2">서울시 웹구 퍼블대로 125 12층</p>
+            <p class="main_contact_3"> 사업자번호: 253-22-1234</p>
+        </div>
+        <div class="call">
+            <h2 class="call_1"> 고객센터 </h2>
+            <p class="call_2"><i class="fa-solid fa-phone"></i> 1212-2233</p>
+            <p class="call_time"> 상담시간: 월~금 9:00~18:00 (토,일 / 공휴일 휴무) 점심시간: 12:00~13:30</p>
+        </div>
+    </section>
+</body>
+
+</html>
